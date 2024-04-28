@@ -18,18 +18,37 @@
   <body>
     <header>
       <a class="logo" href="/"
-        ><img
-          src="assets/imgs/logo.png"
-          width="130"
-          height="25"
-          alt="Watchify"
+        ><img src="assets/imgs/logo.png" width="130" height="25" alt="Watchify"
       /></a>
       <a class="header-a active" href="#">Home</a>
       <a class="header-a" href="#">Tv Shows</a>
       <a class="header-a" href="#">Movies</a>
       <a class="header-a" href="#">New & Popular</a>
       <a class="header-a" href="#">My List</a>
-      <div class="search header-a"><form method="get"><input class="search-bar" type="text" name="search" placeholder="Search.."></form></div>
+      <div class="search header-a">
+        <form method="get">
+          <input
+            class="search-bar"
+            type="text"
+            name="search"
+            placeholder="Search.."
+          />
+        </form>
+      </div>
+      <div class="profiles-dropdown">
+        <img
+          src="assets/imgs/profile1.png"
+          height="25"
+          width="25"
+          alt=""
+          srcset=""
+        />
+        <i class="fas fa-chevron-down"></i>
+        <div class="profiles-dropdown-content">
+          <a href="#">Username 1</a>
+          <a href="#">Username 2</a>
+        </div>
+      </div>
     </header>
     <div class="main">
       <div class="section cards-md">
@@ -116,14 +135,9 @@
       </div>
     </div>
     <footer>
-      <img
-          src="assets/imgs/logo.png"
-          width="130"
-          height="25"
-          alt="Watchify"
-      />
+      <img src="assets/imgs/logo.png" width="130" height="25" alt="Watchify" />
       <p>all copyright reserved &copy; 2024 Watchify Group</p>
     </footer>
     <script src="assets/js/main.js"></script>
   </body>
-</html> 
+</html>
