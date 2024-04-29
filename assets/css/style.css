@@ -355,14 +355,12 @@ footer {
 
 /* Sign In Page Start */
 .login-pg-title {
-  justify-content: center;
   color: #ffffff;
   font-size: 15px;
   text-align: center;
 }
 
 .login-pg-desc {
-  justify-content: center;
   color: #cccccc;
   font-size: 15px;
   text-align: center;
@@ -561,7 +559,12 @@ button:hover {
 
 .show-details {
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
+  background-color: #16192d;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(0, 0, 0);
+  padding: 20px;
 }
 
 .show-poster img {
@@ -655,7 +658,6 @@ button:hover {
   margin-bottom: 10px;
 }
 
-
 #section {
   background-color: #16192d;
   color: #fff;
@@ -677,9 +679,9 @@ button:hover {
   margin-bottom: 5px;
 }
 
-.bashar-input{
+.bashar-input {
   background-color: #f8f8fa;
-  width: 100%;
+  width: 98%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ffffff;
@@ -695,6 +697,41 @@ button:hover {
   cursor: pointer;
   font-size: 16px;
 }
-main{
-  color: #FFFFFF;
+main {
+  color: #ffffff;
 }
+
+#personal-info,#password,#payment-info,#preferences {
+  background-color: #16192d;
+  color: #fff;
+  background-color: rgb(255, 255, 255) 505;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(0, 0, 0);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#personal-info h2,
+#password h2 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#personal-info form button,
+#password form button {
+  background-color: #e50914;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#personal-info form label,
+#password form label {
+  display: block;
+  margin-bottom: 5px;
+}
+

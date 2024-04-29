@@ -2,8 +2,6 @@ function fetchData(divId, requestId, type) {
   if (type === "products") {
     let xhr = new XMLHttpRequest();
     xhr.withCredentials = true;
-    // https://corsproxy.io/?https%3A%2F%2Fdev-tester-new-watchify.pantheonsite.io%2Fapi%2Fapi.php%3Ftype%3Dcarousel%26id%3DMain%2FEGYPT%2Fhome%2FEGY-Home-Resident-Evil-Bundle-SVOD
-    url = encodeURIComponent(`https://dev-tester-new-watchify.pantheonsite.io/api/api.php?type=carousel&id=${requestId}`);
     xhr.open(
       "GET",
       `https://api.allorigins.win/raw?url=https://dev-tester-new-watchify.pantheonsite.io/api/api.php?id=${requestId}`
