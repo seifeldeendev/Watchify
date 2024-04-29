@@ -19,6 +19,10 @@ body {
 }
 a {
   text-decoration: none;
+  color: #ffffff;
+}
+ul {
+  list-style-type: none;
 }
 /* Header Start */
 header {
@@ -72,7 +76,7 @@ header .search-bar:hover {
   margin-left: 30px;
 }
 
-.profiles-dropdown i{
+.profiles-dropdown i {
   margin-left: 5px;
 }
 
@@ -81,10 +85,9 @@ header .search-bar:hover {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 99999;
 }
-
 
 .profiles-dropdown-content a {
   color: black;
@@ -93,9 +96,9 @@ header .search-bar:hover {
   display: block;
 }
 
-
-.profiles-dropdown-content a:hover {background-color: #f1f1f1}
-
+.profiles-dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
 .profiles-dropdown:hover .profiles-dropdown-content {
   display: block;
@@ -329,3 +332,369 @@ footer {
   margin: 10px 0 0;
 }
 /* Profile End */
+
+/* Account Info Start */
+.account-info {
+  margin: 25px;
+  padding: 25px 25px 25px 25px;
+  background-color: #1b1d2f;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.account-info .title {
+  color: #f5f5f5;
+  margin-bottom: 20px;
+}
+
+.account-info .info {
+  color: #cccccc;
+  margin-bottom: 10px;
+}
+/* Account Info End */
+
+/* Sign In Page Start */
+.login-pg-title {
+  justify-content: center;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+}
+
+.login-pg-desc {
+  justify-content: center;
+  color: #cccccc;
+  font-size: 15px;
+  text-align: center;
+}
+
+.login-container {
+  padding: 5%;
+}
+
+.form-all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-up-btn-container {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.sign-up-btn-container li {
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.sign-up-apple {
+  background-color: #000000;
+}
+
+.sign-up-facebook {
+  background-color: #1729ce;
+}
+
+.sign-up-google {
+  background-color: #ffffff;
+}
+.sign-up-google a {
+  color: #000000;
+}
+.sign-in-form-container {
+  width: 100%;
+  max-width: 400px;
+  color: #ffffff;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #1b0f33;
+  color: #ffffff;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2c1854;
+}
+
+/* Sign In Page End */
+/* Payment Page Start */
+.payment-container {
+  color: #ffffff;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.heading-blue {
+  color: #ff0000;
+  margin-bottom: 20px;
+}
+
+.heading-red {
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.payment-option {
+  background-color: #111;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #d00;
+}
+
+.link-blue {
+  color: #00f;
+  text-decoration: none;
+}
+
+.link-blue:hover {
+  text-decoration: underline;
+}
+/* Payment Page End */
+/* Subscribe Page Start */
+.page-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blue-heading {
+  color: #00f;
+  margin-bottom: 20px;
+}
+
+.red-heading {
+  color: #f00;
+}
+
+.pricing-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-box {
+  width: calc(40% - 20px);
+  background-color: #111;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.pricing-box h2 {
+  color: #ff0000;
+}
+.pricing-box p {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.feature-list {
+  list-style-type: none;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.feature-list-item {
+  margin-bottom: 5px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f00;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #d00;
+}
+/* Subscribe Page End */
+
+.show-details {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.show-poster img {
+  max-width: 300px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.show-info {
+  flex: 1;
+}
+
+.show-info h1 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.genre {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-bottom: 5px;
+}
+
+.cast,
+.seasons,
+.rating {
+  margin-bottom: 5px;
+}
+
+.watch-btn {
+  font-family: "ITC Benguiat", serif;
+  background-color: #dc3545;
+  color: #ffffff;
+  border: 2px solid #dc3545;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.watch-btn:hover {
+  background-color: #c82333;
+  border-color: #c82333;
+}
+
+.similar-shows {
+  margin-top: 20px;
+}
+
+.similar-shows h2 {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.show-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.show-item {
+  width: 30%;
+}
+
+.show-item img {
+  width: 70%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.show-title {
+  font-size: 13px;
+  text-align: center;
+}
+
+#p {
+  color: #8d8d8d;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: unset;
+}
+/* Body styles */
+
+#header-h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
+#section {
+  background-color: #16192d;
+  color: #fff;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(0, 0, 0);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#h2 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.bashar-input{
+  background-color: #f8f8fa;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+}
+
+#button {
+  background-color: #e50914;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+main{
+  color: #FFFFFF;
+}

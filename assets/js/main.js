@@ -13,12 +13,14 @@ function fetchData(divId, requestId, type) {
     xhr.onload = function () {
       if (xhr.status === 200) {
         document.getElementById(divId).innerHTML = "";
+        var aList = ["movie.html", "serie.html"];
+        var aHref = aList[Math.floor(Math.random() * aList.length)];
         var jsonData = xhr.response;
         for (var i = 0; i < jsonData.length; i++) {
           var movieBlock = document.createElement("div");
           movieBlock.classList.add("MovieBlock");
           var anchor = document.createElement("a");
-          anchor.href = "#";
+          anchor.href = aHref;
           var posterDiv = document.createElement("div");
           posterDiv.classList.add("Poster");
           var img = document.createElement("img");
@@ -62,7 +64,7 @@ function fetchData(divId, requestId, type) {
           var movieBlock = document.createElement("div");
           movieBlock.classList.add("MovieBlock", "cw-block");
           var anchor = document.createElement("a");
-          anchor.href = "#";
+          anchor.href = "tvshow.html";
           var posterDiv = document.createElement("div");
           posterDiv.classList.add("Poster", "cw-Poster");
           var img = document.createElement("img");

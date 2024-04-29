@@ -17,127 +17,60 @@
   </head>
   <body>
     <header>
-      <a class="logo" href="/"
+      <a class="logo" href="home.html"
         ><img src="assets/imgs/logo.png" width="130" height="25" alt="Watchify"
       /></a>
-      <a class="header-a active" href="#">Home</a>
-      <a class="header-a" href="#">Tv Shows</a>
-      <a class="header-a" href="#">Movies</a>
-      <a class="header-a" href="#">New & Popular</a>
-      <a class="header-a" href="#">My List</a>
-      <div class="search header-a">
-        <form method="get">
-          <input
-            class="search-bar"
-            type="text"
-            name="search"
-            placeholder="Search.."
-          />
-        </form>
-      </div>
-      <div class="profiles-dropdown">
-        <img
-          src="assets/imgs/profile1.png"
-          height="25"
-          width="25"
-          alt=""
-          srcset=""
-        />
-        <i class="fas fa-chevron-down"></i>
-        <div class="profiles-dropdown-content">
-          <a href="#">Username 1</a>
-          <a href="#">Username 2</a>
-        </div>
-      </div>
     </header>
     <div class="main">
-      <div class="section cards-md">
-        <div class="title">
-          Featured Content
-          <a href="#" class="plus">View More</a>
-        </div>
-        <div class="cards" id="movies-1">
-          <div class="spinner">
-            <div class="rect1"></div>
-            <div class="rect2"></div>
-            <div class="rect3"></div>
-            <div class="rect4"></div>
-          </div>
-        </div>
+      <div class="login-pg-title">
+        <h1>Create an Account</h1>
       </div>
-      <div class="section cards-md">
-        <div class="title">
-          Recommended for You
-          <a href="#" class="plus">View More</a>
-          <div class="cards" id="movies-2">
-            <div class="spinner">
-              <div class="rect1"></div>
-              <div class="rect2"></div>
-              <div class="rect3"></div>
-              <div class="rect4"></div>
+      <div class="login-pg-desc">
+        <h5>
+          Unlimited movies, TV shows, and more Ready to watch? Enter your email
+          to create or restart your membership.
+        </h5>
+      </div>
+      <div class="login-container">
+        <div class="form-all">
+          <ul class="sign-up-btn-container">
+            <li class="sign-up-apple">
+              <a href="#"><i class="fab fa-apple"></i> Sign up with Apple</a>
+            </li>
+            <li class="sign-up-facebook">
+              <a href="#"
+                ><i class="fab fa-facebook"></i> Sign up with Facebook</a
+              >
+            </li>
+            <li class="sign-up-google">
+              <a href="#"><i class="fab fa-google"></i> Sign up with Google</a>
+            </li>
+          </ul>
+          <form class="sign-in-form-container">
+            <div class="form-group">
+              <label for="email"><b>Email</b></label>
+              <input
+                type="text"
+                id="email"
+                placeholder="Enter Email"
+                name="email"
+                required
+              />
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="section cards-md">
-        <div class="title">
-          Continue Watching
-          <a href="#" class="plus">View More</a>
-          <div class="cards" id="Continue-Watching">
-            <div class="spinner">
-              <div class="rect1"></div>
-              <div class="rect2"></div>
-              <div class="rect3"></div>
-              <div class="rect4"></div>
+            <div class="form-group">
+              <label for="password"><b>Password</b></label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+                name="password"
+                required
+              />
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="section cards-md">
-        <div class="title">
-          New Releases
-          <a href="#" class="plus">View More</a>
-          <div class="cards" id="movies-3">
-            <div class="spinner">
-              <div class="rect1"></div>
-              <div class="rect2"></div>
-              <div class="rect3"></div>
-              <div class="rect4"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section sm-cards-md">
-        <div class="title">Genres</div>
-        <div class="cards-genre">
-          <a href="#">
-            <div class="genere">Action</div>
-          </a>
-          <a href="#">
-            <div class="genere">Comedy</div>
-          </a>
-          <a href="#">
-            <div class="genere">Drama</div>
-          </a>
-          <a href="#">
-            <div class="genere">Sci-Fi</div>
-          </a>
-          <a href="#">
-            <div class="genere">Horror</div>
-          </a>
-          <a href="#">
-            <div class="genere">Romance</div>
-          </a>
-          <a href="#">
-            <div class="genere">Thriller</div>
-          </a>
+            <button type="submit" onclick="location.href='profile.html'; return false;" >Sign in</button>
+          </form>
         </div>
       </div>
     </div>
-    <footer>
-      <img src="assets/imgs/logo.png" width="130" height="25" alt="Watchify" />
-      <p>all copyright reserved &copy; 2024 Watchify Group</p>
-    </footer>
-    <script src="assets/js/main.js"></script>
   </body>
 </html>

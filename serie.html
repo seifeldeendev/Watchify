@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stranger Things</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/karem.css" />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="/">
+        <img
+          src="assets/imgs/logo.png"
+          width="130"
+          height="25"
+          alt="Watchify"
+        />
+      </a>
+      <a class="header-a" href="home.html">Home</a>
+      <a class="header-a" href="tvshow.html">Tv Shows</a>
+      <a class="header-a" href="#">Movies</a>
+      <a class="header-a" href="#">New & Popular</a>
+      <a class="header-a" href="mylist.html">My List</a>
+      <div class="search header-a">
+        <form method="get">
+          <input
+            class="search-bar"
+            type="text"
+            name="search"
+            placeholder="Search.."
+          />
+        </form>
+      </div>
+      <div class="profiles-dropdown">
+        <img
+          src="assets/imgs/profile1.png"
+          height="25"
+          width="25"
+          alt="profile"
+        />
+        <i class="fas fa-chevron-down"></i>
+        <div class="profiles-dropdown-content">
+          <a href="#">Username 2</a>
+          <a href="account.html">Account</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <h1>Stranger Things</h1>
+      <img
+        src="https://i.ytimg.com/vi/Ha2OcL_0gtM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCf7F9fkiQ-EPYZOIKxRsMk4yFOHQ"
+        alt="Stranger Things Poster"
+        class="series-poster"
+      />
+
+      <div class="description">
+        <p>
+          In a small town where everyone knows everyone, a group of kids
+          discovers a strange girl with supernatural powers. As they uncover the
+          truth about her and the mysterious events surrounding their town, a
+          sinister government agency tries to cover it up, while a more
+          insidious force lurks in the shadows.
+        </p>
+      </div>
+      <div class="info">
+        <p>
+          <strong>Starring:</strong> Winona Ryder, David Harbour, Finn Wolfhard
+        </p>
+        <p><strong>Creators:</strong> The Duffer Brothers</p>
+        <p><strong>Genres:</strong> Drama, Fantasy, Horror</p>
+        <p>
+          <strong>Rating:</strong> Rated TV-14 for violence, language, and
+          frightening scenes
+        </p>
+      </div>
+      <div class="season-selector">
+        <label for="season">Select Season:</label>
+        <select id="season">
+          <option value="1">Season 1</option>
+          <option value="2">Season 2</option>
+          <option value="3">Season 3</option>
+          <option value="4">Season 4</option>
+        </select>
+      </div>
+      <div class="buttons">
+        <a href="#" class="play-button"
+          >Play Episode 1 <i class="fas fa-play"></i
+        ></a>
+        <a href="#" class="favorites-button"><i class="far fa-heart"></i></a>
+      </div>
+    </div>
+
+    <section class="episodes">
+      <h2>Episodes</h2>
+      <ul class="episode-list">
+        <li><a href="#">Episode 1 - The Vanishing of Will Byers</a></li>
+        <li><a href="#">Episode 2 - The Weirdo on Maple Street</a></li>
+        <li><a href="#">Episode 3 - Holly, Jolly</a></li>
+      </ul>
+    </section>
+
+    <div class="recommended">
+      <h2>Related Content</h2>
+      <div class="movie-list">
+        <div class="movie">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg"
+            alt="Movie Title"
+            width="150"
+          />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <img src="assets/imgs/logo.png" width="130" height="25" alt="Watchify" />
+      <p>All copyright reserved &copy; 2024 Watchify Group</p>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

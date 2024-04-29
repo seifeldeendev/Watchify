@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Watchify - Account Settings</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/391827d54c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="/"
+        ><img src="assets/imgs/logo.png" width="130" height="25" alt="Watchify"
+      /></a>
+      <a class="header-a" href="home.html">Home</a>
+      <a class="header-a" href="#">Tv Shows</a>
+      <a class="header-a" href="#">Movies</a>
+      <a class="header-a" href="#">New & Popular</a>
+      <a class="header-a" href="mylist.html">My List</a>
+      <div class="search header-a">
+        <form method="get">
+          <input
+            class="search-bar"
+            type="text"
+            name="search"
+            placeholder="Search.."
+          />
+        </form>
+      </div>
+      <div class="profiles-dropdown">
+        <img
+          src="assets/imgs/profile1.png"
+          height="25"
+          width="25"
+          alt=""
+          srcset=""
+        />
+        <i class="fas fa-chevron-down"></i>
+        <div class="profiles-dropdown-content">
+          <a href="#">Username 2</a>
+          <a href="account.html">Account</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="personal-info">
+        <h2>Personal Information</h2>
+        <form action="#" method="post">
+          <label for="fullname">Full Name:</label>
+          <input
+            class="bashar-input"
+            type="text"
+            id="fullname"
+            name="fullname"
+            required
+          />
+          <label for="email">Email:</label>
+          <input
+            class="bashar-input"
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+          <button type="submit">Update</button>
+        </form>
+      </section>
+
+      <section id="password">
+        <h2>Change Password</h2>
+        <form action="#" method="post">
+          <label for="current-password">Current Password:</label>
+          <input
+            class="bashar-input"
+            type="password"
+            id="current-password"
+            name="current-password"
+            required
+          />
+          <label for="new-password">New Password:</label>
+          <input
+            class="bashar-input"
+            type="password"
+            id="new-password"
+            name="new-password"
+            required
+          />
+          <label for="confirm-password">Confirm New Password:</label>
+          <input
+            class="bashar-input"
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            required
+          />
+          <button type="submit">Change Password</button>
+        </form>
+      </section>
+
+      <section id="payment-info">
+        <a href="subscribe.html"><h2>Payment Information</h2></a>
+      </section>
+
+      <section id="preferences">
+        <h2>Preferences</h2>
+      </section>
+    </main>
+
+    <footer>
+      <img src="assets/imgs/logo.png" width="130" height="25" alt="Watchify" />
+      <p>all copyright reserved &copy; 2024 Watchify Group</p>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
